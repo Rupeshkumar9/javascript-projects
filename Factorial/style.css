@@ -1,0 +1,63 @@
+        /* This section centers everything on the page */
+        body {
+            margin: 0;
+            height: 100vh;
+            /* Full viewport height */
+            display: flex;
+            justify-content: center;
+            /* Center horizontally */
+            align-items: center;
+            /* Center vertically */
+            background-color: rgb(163, 237, 163);
+            /* Light grey background for contrast */
+            font-family: Arial, sans-serif;
+        }
+
+        /* Container for the input and button */
+        .container {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        /* Input field styling */
+        input[type="number"] {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-right: 10px;
+            /* Space between input and button */
+            width: 200px;
+        }
+
+        /* Button styling */
+        .calculate-btn {
+            background-color: #28a745;
+            /* Green color */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        /* Darker green when hovering over the button */
+        .calculate-btn:hover {
+            background-color: #218838;
+        }
+
+
+        p {
+            color: rgb(229, 13, 13);
+            font-size: 20px;
+
+
+
+
+
+        }
